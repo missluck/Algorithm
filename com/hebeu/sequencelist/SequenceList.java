@@ -1,5 +1,10 @@
 package com.hebeu.sequencelist;
-
+/**
+ * Ë³Ðò±í
+ * @author zhaol
+ *
+ * @param <T>
+ */
 public class SequenceList<T> {
 	private Object[] element;
 	private int size;

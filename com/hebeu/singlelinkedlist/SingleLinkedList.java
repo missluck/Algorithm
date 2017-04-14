@@ -1,6 +1,6 @@
 package com.hebeu.singlelinkedlist;
 /**
- * 单链表实现
+ * 单向链表
  * @author zhaol
  *
  * @param <T>
@@ -140,10 +140,10 @@ public class SingleLinkedList<T> {
 		//System.out.println(list.remove("123"));
 		System.out.println(list.contains("123"));
 		System.out.println(list.contains("木头人"));
-		System.out.println(list.get(5));
-		/*for(int i=0;i<list.size();i++) {
+
+		for(int i=0;i<list.size();i++) {
 			System.out.println(list.get(i));
 		}
-		System.out.println("size:"+list.size());*/
+		System.out.println("size:"+list.size());
 	}
 }

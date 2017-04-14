@@ -1,5 +1,10 @@
 package com.hebeu.doublylinkedlist;
-
+/**
+ * Ë«ÏòÁ´±í
+ * @author zhaol
+ *
+ * @param <T>
+ */
 public class DoublyLinkedList<T> {
 	private Node<T> first;
 	private Node<T> last;
